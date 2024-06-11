@@ -1,0 +1,79 @@
+table {
+    width: 100%;
+    font-size: 0.6rem;
+    border-collapse: collapse;
+}
+
+#miTabla th, #miTabla td {
+    white-space: nowrap;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+ /* Estilo para las bordes de la paginación */
+        .pagination .page-item .page-link {
+            border: 1px solid #fb8b24;
+            color: #495057;
+        }
+        .pagination .page-item.active .page-link {
+            background-color: #fb8b24;
+            border-color: #fb8b24;
+        }
+
+         /* Estilo para secciones */
+        #top-section {
+            background-color: #FFFF; 
+            padding: 2px 0; 
+            margin: 0 auto;
+            font-size: 0.8rem;
+        }
+        #mi_encabezado {
+            background-color: #fb8b24; 
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-contact {
+            display: flex;
+            align-items: center;
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        .contact-info img {
+            margin-right: 8px;
+        }
+        .social-links a {
+            margin-left: 10px;
+        }
+
+        .contact-info p {
+            margin-top: 15px;
+        }
+         #logo {
+            max-width: 150px; /* Ancho máximo */
+            height: auto; /* Altura automática para mantener la proporción */
+        }
+
+        .fila-inactiva td {
+            /*background-color: #f4a261;*/
+            background-color: #f9c784
+        }
+        
+
+
+
+
+
+
